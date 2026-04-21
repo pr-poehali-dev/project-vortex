@@ -7,7 +7,7 @@ export default function Header({ className }: HeaderProps) {
     <header className={`absolute top-0 left-0 right-0 z-10 p-6 ${className ?? ""}`}>
       <div className="flex justify-between items-center">
         <div className="flex flex-col">
-          <div className="text-white text-sm uppercase tracking-wide">Artem.Vasyhin2010</div>
+          <div className="text-white text-sm uppercase tracking-wide">Васюхин Артём Сергеевич</div>
           <div className="text-white/70 text-xs">Артём Васюхин Сергеевич</div>
         </div>
         <div className="flex items-center gap-8">
