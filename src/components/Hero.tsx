@@ -19,19 +19,23 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/971d192b-429a-48c7-95a8-79ad2cffcead/files/70b36b68-5e47-4f7f-b063-83e17f84446b.jpg"
+          alt="Подготовка к ОГЭ по математике"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          СДАЙ ОГЭ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Подготовка к ОГЭ по математике с нуля до уверенной пятёрки
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300">
+          Начать подготовку
+        </button>
       </div>
     </div>
   );
