@@ -16,13 +16,7 @@ export default function Promo() {
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
-        <motion.div style={{ y }} className="relative w-full h-full">
-          <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
-            className="w-full h-full object-cover"
-          />
-        </motion.div>
+        <motion.div style={{ y }} className="relative w-full h-full bg-neutral-900" />
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
@@ -30,7 +24,7 @@ export default function Promo() {
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Онлайн-занятия 2 раза в неделю, разбор реальных вариантов ОГЭ и домашние задания с проверкой.
+        Разбор реальных вариантов ОГЭ и домашние задания с проверкой.
         Начни — и уже через месяц увидишь прогресс.
       </p>
     </div>
