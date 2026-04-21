@@ -36,12 +36,19 @@ export default function Hero() {
           <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
             Подготовка к ОГЭ по математике с нуля до уверенной пятёрки
           </p>
-          <button
-            onClick={() => setModalOpen(true)}
-            className="mt-8 bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
-          >
-            Начать подготовку
-          </button>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              onClick={() => setModalOpen(true)}
+              className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+            >
+              Справочный материал
+            </button>
+            <button
+              className="bg-transparent text-white border border-white px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300"
+            >
+              Начать пробник
+            </button>
+          </div>
         </div>
       </div>
 

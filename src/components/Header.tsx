@@ -10,20 +10,23 @@ export default function Header({ className }: HeaderProps) {
           <div className="text-white text-sm uppercase tracking-wide">МатОГЭ</div>
           <div className="text-white/70 text-xs">Артём Васюхин Сергеевич</div>
         </div>
-        <nav className="flex gap-8">
-          <a
-            href="#about"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
-          >
-            О курсе
-          </a>
-          <a
-            href="#contact"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
-          >
-            Записаться
-          </a>
-        </nav>
+        <div className="flex items-center gap-8">
+          <span className="text-white/60 text-xs uppercase tracking-wide">Сделано на Python</span>
+          <nav className="flex gap-8">
+            <a
+              href="#about"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            >
+              О курсе
+            </a>
+            <a
+              href="#contact"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            >
+              Записаться
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
   );
