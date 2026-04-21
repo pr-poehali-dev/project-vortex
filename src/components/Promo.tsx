@@ -16,7 +16,13 @@ export default function Promo() {
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
-        <motion.div style={{ y }} className="relative w-full h-full bg-neutral-900" />
+        <motion.div style={{ y }} className="relative w-full h-full bg-neutral-900">
+          <img
+            src="https://cdn.poehali.dev/projects/971d192b-429a-48c7-95a8-79ad2cffcead/bucket/da8c15bc-5e83-40b0-b2a9-8292b5ae47dc.jpeg"
+            alt="Таблица умножения"
+            className="w-full h-full object-cover opacity-10"
+          />
+        </motion.div>
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">

@@ -6,7 +6,12 @@ export default function Footer() {
     >
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
-          <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
+          <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between relative overflow-hidden">
+            <img
+              src="https://cdn.poehali.dev/projects/971d192b-429a-48c7-95a8-79ad2cffcead/bucket/da8c15bc-5e83-40b0-b2a9-8292b5ae47dc.jpeg"
+              alt="Таблица умножения"
+              className="absolute inset-0 w-full h-full object-cover opacity-5 pointer-events-none"
+            />
             <div className="flex flex-col gap-4 max-w-2xl">
               <h3 className="uppercase text-neutral-400 text-xs sm:text-sm tracking-wide">Что такое ОГЭ по математике</h3>
               <p className="text-white text-sm sm:text-base leading-relaxed">
