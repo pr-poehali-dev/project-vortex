@@ -1,6 +1,7 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef, useState } from "react";
 import MaterialsModal from "@/components/MaterialsModal";
+import ExamModal from "@/components/ExamModal";
 
 export default function Hero() {
   const container = useRef<HTMLDivElement>(null);
@@ -10,6 +11,7 @@ export default function Hero() {
   });
   const y = useTransform(scrollYProgress, [0, 1], ["0vh", "50vh"]);
   const [modalOpen, setModalOpen] = useState(false);
+  const [examOpen, setExamOpen] = useState(false);
 
   return (
     <>
@@ -44,6 +46,7 @@ export default function Hero() {
               Справочный материал
             </button>
             <button
+              onClick={() => setExamOpen(true)}
               className="bg-transparent text-white border border-white px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300"
             >
               Начать пробник
@@ -53,6 +56,7 @@ export default function Hero() {
       </div>
 
       <MaterialsModal open={modalOpen} onClose={() => setModalOpen(false)} />
+      <ExamModal open={examOpen} onClose={() => setExamOpen(false)} />
     </>
   );
 }
