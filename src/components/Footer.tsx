@@ -7,49 +7,14 @@ export default function Footer() {
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
-            <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
-              <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О курсе</h3>
-                <a
-                  href="#about"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Программа
-                </a>
-                <a
-                  href="#results"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Результаты
-                </a>
-                <a
-                  href="#contact"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Записаться
-                </a>
-              </div>
-              <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Подготовка</h3>
-                <a
-                  href="#tasks"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Разборы задач
-                </a>
-                <a
-                  href="#format"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Формат занятий
-                </a>
-                <a
-                  href="#price"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Стоимость
-                </a>
-              </div>
+            <div className="flex flex-col gap-4 max-w-2xl">
+              <h3 className="uppercase text-neutral-400 text-xs sm:text-sm tracking-wide">Что такое ОГЭ по математике</h3>
+              <p className="text-white text-sm sm:text-base leading-relaxed">
+                ОГЭ по математике — обязательный государственный экзамен для учеников 9 класса. Он состоит из двух модулей: алгебры и геометрии, и включает 25 заданий разного уровня сложности.
+              </p>
+              <p className="text-neutral-400 text-sm leading-relaxed">
+                Математика — это не просто экзамен. Навыки логического мышления, умение решать задачи и работать с числами нужны в любой профессии: от программирования и медицины до бизнеса и дизайна. Хорошая оценка по ОГЭ открывает двери в сильные колледжи и профильные классы, а главное — даёт уверенность в себе.
+              </p>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">

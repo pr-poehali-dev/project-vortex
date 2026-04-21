@@ -14,9 +14,7 @@ export default function Featured() {
           Никакой воды и зубрёжки — только понятные разборы задач, система повторения и живая обратная связь от преподавателя.
           Ученики сдают ОГЭ на 4 и 5.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Записаться на урок
-        </button>
+
       </div>
     </div>
   );
