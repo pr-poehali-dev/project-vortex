@@ -8,7 +8,6 @@ export default function Header({ className }: HeaderProps) {
       <div className="flex justify-between items-center">
         <div className="flex flex-col">
           <div className="text-white text-sm uppercase tracking-wide">Васюхин Артём Сергеевич</div>
-          <div className="text-white/70 text-xs">Артём Васюхин Сергеевич</div>
         </div>
         <div className="flex items-center gap-8">
           <span className="text-white/60 text-xs uppercase tracking-wide">Сделано на Python</span>
